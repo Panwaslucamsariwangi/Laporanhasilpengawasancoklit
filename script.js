@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxdgTnuDqa9RkpI4gvg7F_2B4Ehp0Iq9LxHVjGzmBb-yevV8bw-7TlJ0W_Vdz95oAcY/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwH9C-XSDEuTPlw-L82v2x1q7xnhp9DYSxbAkzOsitzkI9QYT9pRoyby6I2jfPF1hBe/exec'
 
 const form = document.forms['coklit-form']
 
