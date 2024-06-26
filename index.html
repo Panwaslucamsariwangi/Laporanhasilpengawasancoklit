@@ -14,11 +14,11 @@
       <header>LAPORAN HASIL PENGAWASAN COKLIT PANTARLIH HARIAN</header>
         <form method="POST" action="#" name="coklit-form" class="form">
         <div class="input-box Penginput">
-          <h3>DATA PENGINPUT</h3>
+          <h3 for="DATA_PENGINPUT">DATA PENGINPUT</h3>
           <div class="column">
             <div class="select-box">
               <select>
-                <option hidden>Nama PKD</option>
+                <option name="NAMA_PKD" hidden >Nama PKD</option>
                 <option>Mumu</option>
                 <option>Sinta Yuliana</option>
                 <option>Moch Muslim Effendi</option>
@@ -33,7 +33,7 @@
           <div class="column">
             <div class="select-box">
               <select>
-                <option hidden>Wilayah Kerja</option>
+                <option hidden name="PKD_DESA">Wilayah Kerja</option>
                 <option>Desa Sariwangi</option>
                 <option>Desa Sukaharja</option>
                 <option>Desa Jayaratu</option>
@@ -47,26 +47,26 @@
           </div>
         <div class="input-box data hasil pengawasan">
           <h3>INPUT DATA HASIL PENGAWASAN</h3>
-          <label>Jumlah Data Pemilih diterima (A-Daftar Pemilih)</label> 
+          <label for="DP4">Jumlah Data Pemilih diterima (A-Daftar Pemilih)</label> 
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
-          <label>Jumlah Pemilih Baru (A-Daftar Potensi Pemilih)</label> 
+          <label for="PEMILIH_BARU">Jumlah Pemilih Baru (A-Daftar Potensi Pemilih)</label> 
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <h4>Pemilih yang Tidak Memenuhi Syarat</h4>
@@ -74,88 +74,88 @@
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>02. Pemilih Ganda</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>03. Pemilih Dibawah Umur</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>04. Pemilih Pindah Domisili</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>05. Pemilih WNA</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>06. Pemilih yang Berstatus TNI</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>07. Pemilih yang Berstatus POLRI</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>08. TPS Tidak Sesuai</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <h4>Data Pemilih yang Diperbaiki</h4>
@@ -163,11 +163,11 @@
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <h4>Data Pemilih Disabilitas</h4>
@@ -175,66 +175,66 @@
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>02. Disabilitas Intelektual</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>03. Disabilitas Mental</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>04. Disabilitas Sensorik Wicara</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>05. Disabilitas Sensorik Rungu</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
           <label>06. Disabilitas Sensorik Netra</label>
           <div class="column">
             <div class="input-box">
               <label>Laki-Laki</label>
-              <input type="text" placeholder="Jumlah Laki-Laki" required />
+              <input type="text" placeholder="Jumlah Laki-Laki" name="Laki-Laki" required />
             </div>
             <div class="input-box">
             <label>Perempuan</label>
-              <input type="text" placeholder="Jumlah Perempuan" required />
+              <input type="text" placeholder="Jumlah Perempuan" name="Perempuan"  required />
             </div>
           </div>
         </div>
